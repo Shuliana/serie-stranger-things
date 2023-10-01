@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    color: #011720;
+    background-color:#effaff;
+    /* font-family: 'Noirden'; */
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+
+}
+
+
+*{
+    box-sizing: border-box;
+
+    /* border: 1px solid black; */
+  
+}
+/* -------------------------------- Colores ------------------------------------ */
+
+/* color principal:
+color: #024059; 
+color secundario:
+color: #03658C;
+color enfasis:
+color: #A60321;
+*/
+/* ----------------------------------RESET----------------------------------------------- */
+ul, ol{
+    margin: 0px;
+    padding: 0px;
+
+}
+li{
+    list-style-type: none;  
+}
+a{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+figure{
+    margin: 0px;
+    padding: 0px;   
+}
+input{
+    outline: none;   
+}
+
+
+
+/* ------------------------- Formato para la fuente tipografica ------------------------ */
+ h1, h2, h3{
+    font-family: 'Exensa Grotesk';
+ }
+h1{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.9em;
+}
+h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8em;
+}
+h3{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+p, section#intro li,em{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+    line-height: 22px;
+}
+
+em{
+    color: #03658C;
+    font-weight: 900;
+    
+}
+
+
+/* ------------------------------------- display ------------------------------- */
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columna{
+    flex-direction: column;
+}
+.espacio-entre{
+    justify-content: space-between;
+}
+header, main, aside, footer{
+    max-width: 1680px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* ------------------ menu -------------------------- */
+
+
+nav{
+    /* background-color: #012736;  */
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #03658C, #012736);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #03658C, #012736); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    align-items: center;
+    box-shadow: 10px 10px 22px -5px rgba(0,0,0,0.54);
+-webkit-box-shadow: 10px 10px 22px -5px rgba(0,0,0,0.54);
+-moz-box-shadow: 10px 10px 22px -5px rgba(0,0,0,0.54);
+} 
+nav li a{
+    display: flex;
+    color: white;
+    width: 100px;
+    height: 40px;
+    /* padding: 30%; */
+    align-items: center;
+}
+
+aside, section{
+    padding: 5% 5%;
+}
+
+/* --------------------------------- seccion banner ----------------------------------------} */
+
+section#banner{
+    background-image: url(elementos-graficos/Imagenes/banner-stranger-thins-medida-desktop.jpg);
+    background-size: 1680px;
+    height: 836px;
+}
+section#intro ul{
+    width: 65%;
+}
+section#intro li{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5% 0%;
+}
+
+ol.episodios li, ol.episodios-2 li{
+    width: 440px;
+    margin-bottom: 4%;
+} 
+
+
+
+footer{
+    background-color: #024059;
+    height: 300px;;
+}
+
+/* -------------------------------------------Imagenes Fluidas----------------------------------------- */
+
+img{
+    max-width: 100%!important;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+video{
+    max-width: 100%!important;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* ----------------------- Media-queries----------------------- */
+
+
+@media (max-width: 629px) and (min-width:320px){
+    nav, ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* div.intro{
+        display: inline-flex;
+        background-color: #011720;
+        width: 100vw!important;
+        margin-top: 40%;
+
+    } */
+    
+}
+
