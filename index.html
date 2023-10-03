@@ -32,13 +32,9 @@
         </nav>
     </header>
 
-    <main>
-        <section  id="banner">
-            <h2 class="logo-stranger-things">STRANGER THINGS</h2>
-            <!-- en ves de la etiqueta img voy a utilizar una background imag para esta seccion} -->
-            <!-- <img src="elementos-graficos/Imagenes/banner-stranger-thins-medida-desktop.jpg" alt=""> -->
-        <!-- width="410" height="200" -->
-        
+    <main class="ancho-movil-90">
+        <section id="banner">
+            <h2 class="logo-stranger-things">STRANGER THINGS</h2>        
             <div class="fila">
                 <p> 2016 |</p>
                 <p> 16+ |</p>
@@ -48,14 +44,14 @@
             <p>
                 Después de la extraña desaparición de un niño, un pueblo se encuentra ante un misterio que revela experimentos secretos, fuerzas sobrenaturales y a una niña muy especial.
             </p>
-            <!-- <p>
+            <p>
                 <em class="enfasis">Protagonistas:</em>  Winona Ryder,David Harbour,Millie Bobby Brown.
             </p>
             <p>
                 <em class="enfasis">Creado por:</em>  The Duffer Brothers
             </p>
             <div>
-                Este nostálgico tributo a los clásicos de los 80 logró muchas nominaciones al Emmy, y tres son a mejor serie dramática. -->
+                Este nostálgico tributo a los clásicos de los 80 logró muchas nominaciones al Emmy, y tres son a mejor serie dramática.
 
             </div>
         </section>
@@ -86,15 +82,15 @@
             <h2 id="videos">Videos | Stranger Things</h2>
             <div class="fila espacio-entre videos">
                 <div>
-                    <video src="./elementos-graficos/videos/STRANGER-THINGS-Season5-2024.mp4" controls poster="" width="440" height="247">Stranger Things 5 (Tráiler)</video>
+                    <video src="./elementos-graficos/videos/STRANGER-THINGS-Season5-2024.mp4" controls poster="./elementos-graficos/videos/portada-video/5.portada-season5.jpg" width="440" height="247">Stranger Things 5 (Tráiler)</video>
                 <h3>Stranger Things 5 (Tráiler)</h3>
                 </div>
                 <div>
-                    <video src="./elementos-graficos/videos/StrangerThings4-Volumen2Tráiler.mp4" width="440" height="247" controls></video>
+                    <video src="./elementos-graficos/videos/StrangerThings4-Volumen2Tráiler.mp4" width="440" height="247" controls poster="./elementos-graficos/videos/portada-video/STRANGER-THINGS-3portada-video.jpg"></video>
                 <h3>Stranger Things 4 (Tráiler)</h3>
                 </div>
                 <div>
-                    <video src="./elementos-graficos/videos/StrangerThingsSeason3TrailerRottenTomatoesTV.mp4" width="440" height="247" controls></video>
+                    <video src="./elementos-graficos/videos/StrangerThingsSeason3TrailerRottenTomatoesTV.mp4" width="440" height="247" controls poster="./elementos-graficos/videos/portada-video/stranger-things-3-.jpg"></video>
                 <h3>Stranger Things 3 (Tráiler)</h3>
                 </div>
                 
@@ -199,28 +195,16 @@
                         </div>
                         <p>El doctor Brenner detiene a Hopper y Joyce para un interrogatorio. Los chicos esperan con Once en el gimnasio, mientras que Nancy y Jonathan se preparan para luchar.</p>
                     </li>
-                    <li>
-                        <figure>
-                            <img src="./elementos-graficos/Imagenes/capitulos/7.cap.la-bañera.jpg" alt="" width="444" height="250">
-                        </figure>
-                        <div>
-                            <h3>Capítulo ocho: El otro lado</h3>
-                            <span>56 min</span>
-                        </div>
-                        <p>El doctor Brenner detiene a Hopper y Joyce para un interrogatorio. Los chicos esperan con Once en el gimnasio, mientras que Nancy y Jonathan se preparan para luchar.</p>
-                    </li>
-                    <li>
-                        <figure>
-                            <img src="./elementos-graficos/Imagenes/capitulos/7.cap.la-bañera.jpg" alt="" width="444" height="250">
-                        </figure>
-                        <div>
-                            <h3>Capítulo ocho: El otro lado</h3>
-                            <span>56 min</span>
-                        </div>
-                        <p>El doctor Brenner detiene a Hopper y Joyce para un interrogatorio. Los chicos esperan con Once en el gimnasio, mientras que Nancy y Jonathan se preparan para luchar.</p>
-                    </li>
+                
                 </ol>
         </section>
+
+        <section class="background">
+    
+
+        </section>
+
+
         <!-- <section>
                 <span>Stranger Things 2</span>
                 <h3 id="ep-2">Año de estreno: 2017</h3>
@@ -279,8 +263,30 @@
                 </ol>
                      <img src="" alt="" width="360" height="200"> 
         </section> -->
-        <section>
-            
+        <section id="suscripcion">
+            <h2 id="suscripcion-icon">Suscribete para recibir el calendario de cosecha</h2>
+            <form class="columna" action="#" method="post">
+                <fieldset>
+                    <legend>Suscribete para recibir</legend>
+                    <div class="columna">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Ej: lucia" required>
+                    </div>
+                    
+                    <div class="columna">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="columna">
+                        <textarea name="comentarios" rows="5" cols="30" placeholder="Escribe aquí tus comentarios"></textarea>
+                        <div class="fila"><input type="checkbox" name="notificaciones" value="si">Acepto recibir notificaciones</div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+      
+            </form>
+
+<!--             
             <details>
                 <summary>Mas detalles</summary>
                 <dl>
@@ -332,16 +338,16 @@
                     Shannon Purser
                  </div></dd>
                 </dl>
-               </details>
+               </details> -->
         </section>
         
     </main>
     <aside>
-           <h2>Más títulos similares a este</h2> 
-           <a href=""><img src="" alt="" width="180" height="100"></a>
-           <a href=""><img src="" alt="" width="180" height="100"></a>
-           <a href=""><img src="" alt="" width="180" height="100"></a>
-           <a href=""><img src="" alt="" width="180" height="100"></a>
+           <h2>Te puede interesar:</h2> 
+           <a href="#"><img src="./elementos-graficos/Imagenes/similares/universo-stranger.jpg" alt="Portada de la serie el Universo Stranger Things" width="370" height="208"></a>
+           <a href="#"><img src="./elementos-graficos/Imagenes/similares/dark-.jpg" alt="Portada de la serie Dark" width="370" height="208"></a>
+           <a href="#"><img src="./elementos-graficos/Imagenes/similares/sabrina.jpg" alt="Portada de la Serie El mundo oculto de sabrina" width="370" height="208"></a>
+           <a href="#"><img src="./elementos-graficos/Imagenes/similares/shadowhunters-.jpg" alt="Portada de la Serie Shadow Hunters" width="370" height="208"></a>
     </aside>
 
     <footer>
