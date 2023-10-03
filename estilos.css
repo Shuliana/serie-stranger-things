@@ -335,6 +335,19 @@ video{
 
 
 @media (max-width: 1360px) and (min-width:1100px){
-    
 
+    section#suscripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 2000px) and (min-width:1360px){
+    section#suscripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
