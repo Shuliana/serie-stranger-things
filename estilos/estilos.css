@@ -151,7 +151,7 @@ section.videos h2#videos::before{
     height: 65px;
     content: "";
     padding-left: 50px;
-    background-image: url(./elementos-graficos/Iconos/youtube2.png);
+    background-image: url(../elementos-graficos/Iconos/youtube2.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -160,7 +160,7 @@ section.videos h2#videos::before{
 h2#episodios::before{
     content: "";
     padding-left: 50px;
-    background-image: url(./elementos-graficos/Iconos/epidodio.png);
+    background-image: url(../elementos-graficos/Iconos/epidodio.png);
     background-repeat: no-repeat;
     background-size: 40px;
     background-position: center center;
@@ -168,7 +168,7 @@ h2#episodios::before{
 h2#suscripcion-icon::before{
     content: "";
     padding-left: 50px;
-    background-image: url(./elementos-graficos/Iconos/suscribir.png);
+    background-image: url(../elementos-graficos/Iconos/suscribir.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center center;
@@ -181,7 +181,7 @@ ol.episodios li, ol.episodios-2 li{
 
 section.background{
     height: 680px;
-    background-image: url(../elementos-graficos/Imagenes/Background_StrangerThings4.jpg);
+    background-image: url(.../elementos-graficos/Imagenes/Background_StrangerThings4.jpg);
     background-image: 1680px 832px;
 }
 
